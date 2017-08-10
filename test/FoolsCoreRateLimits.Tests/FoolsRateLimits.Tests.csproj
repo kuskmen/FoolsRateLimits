@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.0</TargetFramework>
-    <AssemblyName>AspNetCoreRateLimit.Tests</AssemblyName>
-    <PackageId>AspNetCoreRateLimit.Tests</PackageId>
+    <AssemblyName>FoolsRateLimits.Tests</AssemblyName>
+    <PackageId>FoolsRateLimits.Tests</PackageId>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;portable-net451+win8</PackageTargetFallback>
     <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
@@ -19,8 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\AspNetCoreRateLimit\FoolsRateLimits.csproj" />
-    <ProjectReference Include="..\AspNetCoreRateLimit.Demo\FoolsRateLimits.Demo.csproj" />
+    <ProjectReference Include="..\..\src\FoolsRateLimits\FoolsRateLimits.csproj" />
+    <ProjectReference Include="..\FoolsRateLimits.Demo\FoolsRateLimits.Demo.csproj" />
   </ItemGroup>
 
   <ItemGroup>

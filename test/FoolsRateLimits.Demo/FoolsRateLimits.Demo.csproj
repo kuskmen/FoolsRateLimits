@@ -3,9 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp1.0</TargetFramework>
     <PreserveCompilationContext>true</PreserveCompilationContext>
-    <AssemblyName>AspNetCoreRateLimit.Demo</AssemblyName>
+    <AssemblyName>FoolsRateLimits.Demo</AssemblyName>
     <OutputType>Exe</OutputType>
-    <PackageId>AspNetCoreRateLimit.Demo</PackageId>
+    <PackageId>FoolsRateLimits.Demo</PackageId>
     <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
     <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;portable-net45+win8</PackageTargetFallback>
   </PropertyGroup>
@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\AspNetCoreRateLimit\FoolsRateLimits.csproj" />
+    <ProjectReference Include="..\..\src\FoolsRateLimits\FoolsRateLimits.csproj" />
   </ItemGroup>
 
 </Project>
