@@ -25,6 +25,12 @@ nuget.exe
 .vs/
 project.lock.json
 
+# Cake unrelated files
+*.cake.*
+
 bower_components/
 node_modules/
 **/wwwroot/lib
+
+# Tools folder
+build/tools/
